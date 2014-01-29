@@ -17,7 +17,7 @@ Ubuntu 12.04 64bit, Nginx, PHP5.5, php-fpm, composer, MySQL 5.5, Redis, supervis
 
 ## Initial Setup
 
-* Install VirtualBox and Vagrant ( >= 1.3.0)
+* Install VirtualBox ( >= 4.2.16) and Vagrant ( >= 1.3.0)
 * Clone this repository `git clone https://github.com/Altanawealth/laravel_vagrant_box.git`. 
 * Run `vagrant up` inside the newly created directory. (the first time you run Vagrant it will fetch the virtual box image which is ~300mb. So this could take some time)
 * Vagrant will now use Puppet to provision the devbox (this could take a few minutes)
